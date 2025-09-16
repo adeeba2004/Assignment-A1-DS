@@ -1,0 +1,20 @@
+ADEEBA NIZAM || CS-303 ASSIGNMENT 1 || README.txt
+First keep all the files in the same directory including the given input file "A1input.txt".I have used total 5 functions. The function declarations are in the f.h and function definitions are in the f.cpp. Each function serves a specific purpose as outlined in the assignment requirements, implementing array operations with proper error handling. Function List:
+* readFile() - Reads data from input file into array
+* findNum() - Searches for integer and returns index 
+* modifyValuewithexcpt() - Modifies value at index with exception handling 
+* addNumwithexcpt() - Adds integer to end with exception handling 
+* removeNum() - Removes integer at specified index 
+The functions require user input. The program prompts users to enter values for searching, indices for modification, new values for updates, and indices for removal. All input validation is handled through exception mechanisms. Input Requirements:
+* Search function: Integer value to find
+* Modify function: Valid index (0-99) and new integer value
+* Add function: Integer value to append
+* Remove function: Valid index (0 to current array size)
+
+
+
+
+Exception Handling: For the modifyValuewithexcpt function (a function to modify the value of a given index and return both the new and previous value) and the addNumwithexcpt function (a function to add a new integer at the end of the array) if any error occurs for example, if the user input isn't within the range it would throw an error and show an error statement. There's try catch blocks to handle the exceptions. Error scenarios: Invalid index values (negative or exceeding array bounds), Array overflow conditions, File reading errors and Invalid user input.
+If proper input is given all the functions run successfully. The program displays clear messages for successful operations and informative error messages when exceptions occur.
+
+
