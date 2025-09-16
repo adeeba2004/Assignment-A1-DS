@@ -97,7 +97,7 @@ void addNumwithexcpt(int arr[], int& n) {
     cout << add_n << " added at the end of the array" << endl;
 }
 
-// Function to remove integer at given index (Q1.4) - FIXED from replace
+// Function to remove integer at given index 
 void removeNum(int arr[], int& n) {
     int idx;
     cout << "Enter index to remove: ";
@@ -117,4 +117,5 @@ void removeNum(int arr[], int& n) {
 
     n--; // Decrease array size
     cout << "Removed " << removed_val << " from index " << idx << endl;
+
 }
